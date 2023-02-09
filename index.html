@@ -6,38 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 <body>
     <nav class="menu">
         <a href="#">
-            <img src="images/logo.jpg" alt="" width="70px" style="border-radius: 50%;">
+            <img src="images/logo.jpg" alt="" width="70px" style="border-radius: 50%; margin-top: 10%;">
         </a>
-            <a href="#">Главная</a>
-            <a href="#">Каталог</a>
-            <a href="#">Вход / Регистрация</a>
+            <a href="#" class="nav_btn">Main</a>
+            <a href="#" class="nav_btn">Catalog</a>
+            <a href="#" class="nav_btn">Sign In / Sign Up</a>
     </nav>
     <main>
         <section style="margin-top: 4%;">
             <div class="container" >
                 <div class="slides">
-                  <!-- <div class="slide">
-                    <img src="images/img1.jpg" alt="" />
-                  </div> -->
+                  <div class="slide txt-slide" style="justify-content: center;">
+                    <img src="images/slider/sliderimg1.jpg" alt="" />
+                    <div class="slide-content txt-slide">
+                        <p class="gradis"> Welcome</p>
+                    </div>
+                  </div>
                   <div class="slide txt-slide">
-                    <img src="images/img2.jpg" alt="" />
+                    <a href="" style="text-decoration:none;">
+                    <img src="images/slider/sliderimg2.jpg" alt="" />
                     <div class="slide-content">
-                        <p>New Year's discounts!!!</p>
+                        <p class="grad">New Year's discounts!!!</p>
+                        <p>🎉🎉🎉</p>
                         <button class="buy_now"><a href="" class="buy_now_blur">Buy Now!!!</a></button>
-                        
+                      </div>
+                    </a>
+                  </div>
+                  <div class="slide txt_second_slide">
+                    <img src="images/slider/sliderimg3.png" alt="" />
+                    <div class="slide-content-second">
+                        <p class="gradi">Have time to buy on sale</p>
                       </div>
                   </div>
-                  <div class="slide">
-                    <img src="images/img3.gif" alt="" />
-                  </div>
-                  <div class="slide">
-                    <img src="images/img4.jpeg" alt="" />
+                  <div class="slide txt_fourth_slide">
+                    <img src="images/slider/sliderimg4.jpg" alt="" />
+                    <div class="slide-content-fourth">
+                        <p class="gradisi">Gift to yourself and a your friend</p>
+                    </div>
                   </div>
                 </div>
                 <div class="slide-controls">
@@ -49,18 +59,18 @@
                   </button>
                 </div>
               </div>
-              <!-- <script src="main.js"></script> -->
+              <script src="main.js"></script>
         </section>
         <section class="section2">
             <div>
                 <header>
-                    <h2>Лучшие игры:</h2>
+                    <h2>Best game:</h2>
                 </header>
                 <div class="dive">
                     <article class="bestgame">
-                        <a href="" class="game"><div  class="game1 gami"></div><figcaption class="txt-best" style="transform: translateY(80%);">Топ 2</figcaption></a>
-                        <a href="" class="game"><div  class="game2 gami"></div><figcaption class="txt-best" style="transform: translateY(-40%);">Лучшая игра</figcaption></a>
-                        <a href="" class="game"><div  class="game3 gami"></div><figcaption class="txt-best" style="transform: translateY(80%);">Топ 3</figcaption></a>
+                        <a href="" class="game"><div  class="game1 gami"></div><figcaption class="txt-best" style="transform: translateY(50%);">Top 2</figcaption></a>
+                        <a href="" class="game"><div  class="game2 gami"></div><figcaption class="txt-best" style="transform: translateY(-30%);">The best</figcaption></a>
+                        <a href="" class="game"><div  class="game3 gami"></div><figcaption class="txt-best" style="transform: translateY(50%);">Top 3</figcaption></a>
                     </article>
 
 
@@ -76,13 +86,13 @@
         <section class="section2 upper">
             <div>
                 <header>
-                    <h2 style="margin-top: 10%;">Горячие предложения:</h2>
+                    <h2 style="margin-top: 10%;">Hot offers:</h2>
                 </header>
                 <div class="dive">
                 <article class="gameimg">
-                    <a href="" class="game" style="transform: translateY(10px);"><div class="gameimg1 gami"></div><figcaption class="txt-hot" >Купить за 499 ₽(-50%)</figcaption></a>
-                    <a href="" class="game"><div class="gameimg2 gami"></div><figcaption class="txt-hot">Купить за 1300 ₽(-70%)</figcaption></a>
-                    <a href="" class="game" style="transform: translateY(10px);"><div class="gameimg3 gami"></div><figcaption class="txt-hot">Купить за 999 ₽ (-50%)</figcaption></a>
+                    <a href="" class="game" style="transform: translateY(10px);"><div class="gameimg1 gami"></div><figcaption class="txt-hot" >Buy for 499 ₽(-50%)</figcaption></a>
+                    <a href="" class="game"><div class="gameimg2 gami"></div><figcaption class="txt-hot">Buy for 1300 ₽(-70%)</figcaption></a>
+                    <a href="" class="game" style="transform: translateY(10px);"><div class="gameimg3 gami"></div><figcaption class="txt-hot">Buy for 999 ₽ (-50%)</figcaption></a>
                     <!-- <div class="game1 gami"></div>
                     <div class="game2 gami"></div>
                     <div class="game3 gami"></div> -->
@@ -98,30 +108,30 @@
         </section>
         <section class="section2">
                 <header>
-                    <h2 style="margin-top: 10%;">Последние Поступления:</h2>
+                    <h2 style="margin-top: 10%;">latest arrivals:</h2>
                 </header>
                 <section>
                     <article class="last">
                         <div class="dives">
-                        <a href="" class="game"><div class="gameseller1 gami" style="background-image: url(images/last/lastgame1.jpg);"></div><figcaption class="txt-hot" >Купить за 2399 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller2 gami" style="background-image: url(images/last/lastgame2.jpg);"></div><figcaption class="txt-hot">Купить за 1999 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller3 gami" style="background-image: url(images/last/lastgame3.jpg);"></div><figcaption class="txt-hot">Купить за 599 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller4 gami" style="background-image: url(images/last/lastgame4.jpg);"></div><figcaption class="txt-hot">Купить за 3199 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller1 gami" style="background-image: url(images/last/lastgame1.jpg);"></div><figcaption class="txt-hot" >Buy for 2399 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller2 gami" style="background-image: url(images/last/lastgame2.jpg);"></div><figcaption class="txt-hot">Buy for 1999 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller3 gami" style="background-image: url(images/last/lastgame3.jpg);"></div><figcaption class="txt-hot">Buy for 599 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller4 gami" style="background-image: url(images/last/lastgame4.jpg);"></div><figcaption class="txt-hot">Buy for 3199 ₽</figcaption></a>
 
                     </div>
                         <div class="dives" style="margin-top: 4%;">
-                        <a href="" class="game"><div class="gameseller5 gami" style="background-image: url(images/last/lastgame5.jpg);"></div><figcaption class="txt-hot" >Купить за 1599 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller6 gami" style="background-image: url(images/last/lastgame6.jpg);"></div><figcaption class="txt-hot">Купить за 1099 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller7 gami" style="background-image: url(images/last/lastgame7.jpg);"></div><figcaption class="txt-hot">Купить за 599 ₽</figcaption></a>
-                        <a href="" class="game"><div class="gameseller8 gami" style="background-image: url(images/last/lastgame8.jpg);"></div><figcaption class="txt-hot">Купить за 515 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller5 gami" style="background-image: url(images/last/lastgame5.jpg);"></div><figcaption class="txt-hot" >Buy for 1599 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller6 gami" style="background-image: url(images/last/lastgame6.jpg);"></div><figcaption class="txt-hot">Buy for 1099 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller7 gami" style="background-image: url(images/last/lastgame7.jpg);"></div><figcaption class="txt-hot">Buy for 599 ₽</figcaption></a>
+                        <a href="" class="game"><div class="gameseller8 gami" style="background-image: url(images/last/lastgame8.jpg);"></div><figcaption class="txt-hot">Buy for 515 ₽</figcaption></a>
 
                         </div>
                     </article>
                 </section>
         </section>
-        <section class="section2">
+        <section class="section2" style="margin-top: 5%;">
             <header>
-                <h2 style="margin-bottom: 2%;">Скидки от издателей:</h2>
+                <h2 style="margin-bottom: 2%;">Discounts from publishers:</h2>
             </header>
             <section class="publishers">
                 <div class="fist_publishers">
@@ -131,19 +141,18 @@
                     <a class="izdal" href=""><img src="images/publishers/4company.png"></a>
                     <!-- <a class="izdal" href=""><img src="images/publishers/5company.png"></a> -->
                 </div>
-                <button class="btn1"><a href="#" class="button_click">Все издатели</a></button>
+                <button class="btn1"><a href="#" class="button_click">All publishers</a></button>
             </section>
-            
-            <footer class="end">
-                <p class="hechtag" style="color: white;">#GAME_STORE</p>
-                <div class="social">
-                    <a href="https://twitter.com/Gten71" target="_blank"><img src="img/twitter.svg" alt=""></a>
-                    <a href="https://www.facebook.com/jdhiiehhd.fhxuh.5/" target="_blank"><img src="img/fb.svg" alt=""></a>
-                    <a href="https://www.youtube.com/channel/UCWuV2ykq3CwTgjxXh5XQkMQ" target="_blank"><img src="img/youtube.svg" alt=""></a>
-                </div>
-                <p class="FoxArt">© 2023 Game Store</p>
-            </footer>
         </section>
+        <footer class="end">
+            <p class="hechtag" style="color: white;">#GAME_STORE</p>
+            <div class="social">
+                <a href="https://twitter.com/Gten71" target="_blank"><img src="img/twitter.svg" alt=""></a>
+                <a href="https://www.facebook.com/jdhiiehhd.fhxuh.5/" target="_blank"><img src="img/fb.svg" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCWuV2ykq3CwTgjxXh5XQkMQ" target="_blank"><img src="img/youtube.svg" alt=""></a>
+            </div>
+            <p class="FoxArt">© 2023 Game Store</p>
+        </footer>
     </main>
 </body>
 </html>

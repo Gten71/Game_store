@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body{
+  background-image: url(images/Background/BackgroundSign.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: #151718; */
+  /* background: -webkit-linear-gradient(top, rgba(64, 62, 158, 0.788) 0%,rgba(105, 90, 129, 0.712) 30%,
+  rgba(60, 58, 161, 0.623)  100%); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: 'Roboto';
+    border:  3px ridge rgba(13, 16, 20, 0.767);
+    box-shadow: 1px 0px 25px rgba(153, 183, 223, 0.452);
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    }
+    .menu a{
+        margin-right: 6%;
+        text-decoration: none;
+        color: white;
+    }
+    .nav_btn:hover{
+        color: #9dbdc7;
+    }
+    .divis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 450px;
+        height: 300px;
+        margin: 30% auto auto;
+        background-color: rgba(91, 106, 121, 0.808);
+        opacity: 0.90;
+        border-radius: 10px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+.rofl{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 1%;
+}
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+    .field_to_fill_in input{
+        outline: none;
+        width: 200px;
+        height: 30px;
+        border-radius: 14px;
+    }
+    .txt-zhanr{
+        padding-top: 15px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #btn{
+        width: 100px;
+        height: 30px;
+    }
+    .sign-up{
+        color: white;
+    }
+    .gender p{
+        display: inline;
+    }
+    .sign-up{
+        font-size: 14px; 
+    }
+    .action :hover{
+        color: blueviolet;
+    }
+
+
+    .btn1{
+        align-self: center;
+        height: 2.5rem;
+        margin-top: 4%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 14px;
+        border-radius: 25px;
+        transition: 150ms ease-in-out; 
+        text-decoration: none;
+        box-shadow: 0 0 40px 40px #768596 inset, 0 0 0 0 #000000;
+      }
+      .btn1 a{
+        color: #9dbdc7;
+        text-decoration: none;
+      }
+      .nav_btn:hover{
+        color: #9dbdc7;
+      }
+      .btn1 a:hover{
+        color: black;
+      }
+      .btn1:hover{
+        /* transform: scale(0.9) translateY(221px); */
+        box-shadow: 0 0 10px 0 #6c7b91a1 inset, 0 0 10px 4px #6fbdb09f;
+      }
+      .button_click{
+        padding: 20px;
+        display: block;
+        width: 74%;
+        border-radius: 30px;
+        height: 90%;
+      }
+
+    .end{
+        position: fixed;
+        bottom: 0;
+        color: white;
+          font-family: 'Roboto';
+          margin-top: 30px; 
+          display: flex; 
+          justify-content: space-evenly; 
+          align-items: center; 
+          /* background-color: rgba(56, 46, 94, 0.562);  */
+          background-color: #414b579a;
+          width: 100%;
+          height: 75px; 
+      } 
+      .hechtag{
+        font-size: 20px;
+        color: #041230; 
+        font-weight:900; 
+    }
+    .social img{
+        padding: 10px; 
+    } 

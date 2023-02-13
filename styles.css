@@ -8,6 +8,7 @@ body{
   background-image: url(images/Background/Background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   /* background-color: #151718; */
   /* background: -webkit-linear-gradient(top, rgba(64, 62, 158, 0.788) 0%,rgba(105, 90, 129, 0.712) 30%,
   rgba(60, 58, 161, 0.623)  100%); */
@@ -61,52 +62,6 @@ h2{
     font-family: 'Roboto';
     margin-top: 2%;
 }
-.Insburg{
-    font-size: 30px;
-    font-family: 'Roboto';
-    margin-top: 2%;
-    font-weight: 700;
-
-}
-.citi{
-    font-family: 'Roboto';
-    margin-top: 2%;
-}
-.udo{
-    font-family: 'Roboto';
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.additional-item{
-    list-style: none;
-}
-  
-  ul li:before {
-    content: '✓';
-  }
-  .additional-content{
-    margin-top: 2%;
-  }
-  .img-gor{
-    /* position:fixed;
-    transform: translateY(-500px); */
-    background-image: url(images/like.jpg);
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transform: translateX(150px);
-  }
-  .img-gor a{
-    color: black;
-    text-decoration: none;
-
-  }
   .dive{
     display: flex;
     flex-direction: row;
@@ -117,23 +72,6 @@ h2{
     justify-content: space-evenly;
 
   }
-  .gora{
-    color: pink;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 40px;
-  }
-  .ski{
-    font-size: 20px;
-    background-color: white;
-    align-self: flex-end;
-    font-family: 'Roboto';
-    filter: opacity(0.6);
-  }
-  .weather{ 
-    margin-top: 30px; 
-    border: 1px solid #000000; 
-} 
 .txt-best{ 
   opacity: 0.9;
     background-color: black; 
@@ -478,8 +416,8 @@ background-image: url(images/best_and_seller/gameimg1.jpg);
   -webkit-text-fill-color: transparent;
 }
 .gradis{
-  font-size: 45px;
-  letter-spacing: 6px;
+  font-weight: 300;
+  letter-spacing: 7px;
 }
 .gradisi{
   opacity: 0.8;

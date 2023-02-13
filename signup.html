@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignIn Page</title>
-    <link rel="stylesheet" href="style_sign.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="shortcut icon" href="images/logo_and_svg/icon.webp" type="image/x-icon">
 </head>
-<body style="background-image: url(images/Background/BackgroundSign.png);">
+<body>
     <header>
         <nav class="menu">
             <a href="#">
@@ -22,22 +22,6 @@
     <main>
         <article>
         <section>
-            <form class="rofl">
-            <fieldset>
-              <legend>Who are you?</legend>
-          
-              <input type="radio" id="kraken" name="monster" value="K">
-              <label for="kraken">Nya</label><br>
-          
-              <input type="radio" id="sasquatch" name="monster" value="S">
-              <label for="sasquatch">Gigachad</label><br>
-          
-              <input type="radio" id="mothman" name="monster" value="M" />
-              <label for="mothman">Ghoul</label>
-            </fieldset>
-          </form>
-          </section>
-        <section>
             <form action="" class="divis">
                 <div class="field_to_fill_in">
                     <p>Login:</p>
@@ -45,11 +29,17 @@
                     <p>Password:</p>
                     <input type="text" name="login" placeholder="Enter password">
                 </div>
+                <p>Select gender:</p>
+        <div class="gender">
+        <input type="radio" name="gender" >
+        <p>Man</p>
+        <input type="radio" name="gender" >
+        <p>Woman</p>
+        </div>
                 <div class="action">
-                    <a href="signup.html" class="sign-up">Don't have account? Sign Up</a>
+                    <a href="signin_signup.html" class="sign-up">Have account? Sign In</a>
                 </div>
-                <button class="btn1"><a href="#" class="button_click">Continue</a></button>
-                <!-- <input type="button" value="Continue" class="btn1 button_click"> -->
+                <button class="btn1"><a href="#" class="button_click">Create</a></button>
             </form>
         </section>
     </article>

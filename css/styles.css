@@ -3,24 +3,21 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    box-sizing: border-box;
 }
 body{
-  background-image: url(images/Background/Background.png);
+  background-image: url(../images/Background/Background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   /* background-color: #151718; */
   /* background: -webkit-linear-gradient(top, rgba(64, 62, 158, 0.788) 0%,rgba(105, 90, 129, 0.712) 30%,
   rgba(60, 58, 161, 0.623)  100%); */
-  display: flex;
+  display: flex; 
   flex-direction: column;
   align-items: center;
 }
 main{
-  border: 4px solid black;
-  border-top: none;
-  border-radius: 5px 5px 0 0 ;
-  border-bottom: none;
   width: 100%;
   backdrop-filter: blur(11px);
   box-shadow: 1px 0px 60px black;
@@ -88,7 +85,7 @@ h2{
   border-radius: 0 0 10px 10px;
   background-color: black; 
     color: white; 
-    height: 25px;
+    height: 45px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -141,9 +138,11 @@ td{
     height: 30px; 
 } 
 .end{
+  backdrop-filter: blur(11px);
   color: white;
     font-family: 'Roboto';
-    margin-top: 30px; 
+    /* margin-top: 30px;  */
+    width: 100%;
     display: flex; 
     justify-content: space-evenly; 
     align-items: center; 
@@ -206,29 +205,29 @@ height: 100%;
   text-decoration: none;
 }
 .game1 {
-  background-image: url(images/best_and_seller/best_game2.jpg);
+  background-image: url(../images/best_and_seller/best_game2.jpg);
   transform: translateY(20px);
 }
 .game2 {
   background-position: 40% 100%;
-  background-image: url(images/best_and_seller/best_game1.jpg);
+  background-image: url(../images/best_and_seller/best_game1.jpg);
   transform: translateY(-10px);
 }
 .game3 {
-  background-image: url(images/best_and_seller/best_game3.jpg);
+  background-image: url(../images/best_and_seller/best_game3.jpg);
   transform: translateY(20px);
 }
 .gameimg1{
-background-image: url(images/best_and_seller/gameimg1.jpg);
+background-image: url(../images/best_and_seller/gameimg1.jpg);
 }
 .gameimg2{
-  background-image: url(images/best_and_seller/gameimg2.jpg);
+  background-image: url(../images/best_and_seller/gameimg2.jpg);
 }
 .gameimg3{
-  background-image: url(images/best_and_seller/gameimg3.jpg);
+  background-image: url(../images/best_and_seller/gameimg3.jpg);
 }
 .gameimg4{
-  background-image: url(images/best_and_seller/gameimg4.jpg);
+  background-image: url(../images/best_and_seller/gameimg4.jpg);
 }
 
 .upper{
@@ -262,7 +261,7 @@ background-image: url(images/best_and_seller/gameimg1.jpg);
 }
 .btn1{
   align-self: center;
-  margin-right: 7rem;
+  margin-right: 11rem;
   width: 13%;
   height: 3rem;
   margin-top: 4%;
@@ -271,7 +270,6 @@ background-image: url(images/best_and_seller/gameimg1.jpg);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: none;
   font-size: 16px;
   border-radius: 30px;
   transition: 150ms ease-in-out; 
@@ -293,7 +291,8 @@ background-image: url(images/best_and_seller/gameimg1.jpg);
   box-shadow: 0 0 10px 0 #6c7b91a1 inset, 0 0 10px 4px #6fbdb09f;
 }
 .button_click{
-  padding: 20px;
+
+  padding: 10px;
   display: block;
   width: 74%;
   border-radius: 30px;
@@ -390,7 +389,7 @@ background-image: url(images/best_and_seller/gameimg1.jpg);
     box-shadow: 0 0 40px 40px #343953 inset, 0 0 0 0 #000000;
   }
   .buy_now_blur{
-    padding: 20px;
+    padding: 14px;
     font-size: 16px;
     display: block;
     width: 70%;

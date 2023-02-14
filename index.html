@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="shortcut icon" href="images/logo_and_svg/icon.webp" type="image/x-icon">
 </head>
@@ -16,8 +16,8 @@
                 <img src="images/logo_and_svg/logo.jpg" alt="" width="70px" style="border-radius: 50%; margin-top: 10%;">
             </a>
                 <a class="nav_btn">Main</a>
-                <a href="catalog.html" class="nav_btn">Catalog</a>
-                <a href="signin_signup.html" class="nav_btn">Sign In / Sign Up</a>
+                <a href="html/catalog.html" class="nav_btn">Catalog</a>
+                <a href="html/signin_signup.html" class="nav_btn">Sign In / Sign Up</a>
         </nav>
     </header>
     <main>
@@ -60,7 +60,7 @@
                   </button>
                 </div>
               </div>
-              <!-- <script src="main.js"></script> -->
+              <script src="js/main.js"></script>
         </section>
         <section class="section2">
             <div>
@@ -113,7 +113,7 @@
                     <h2 style="margin-top: 10%;">latest arrivals:</h2>
                 </header>
                 <section>
-                    <article class="last">
+                    <div class="last">
                         <div class="dives">
                         <a href="" class="game"><div class="gameseller1 gami" style="background-image: url(images/latest_arrivals/lastgame1.jpg);"></div><figcaption class="txt-hot" >Buy for 2399 ₽</figcaption></a>
                         <a href="" class="game"><div class="gameseller2 gami" style="background-image: url(images/latest_arrivals/lastgame2.jpg);"></div><figcaption class="txt-hot">Buy for 1999 ₽</figcaption></a>
@@ -128,7 +128,7 @@
                         <a href="" class="game"><div class="gameseller8 gami" style="background-image: url(images/latest_arrivals/lastgame8.jpg);"></div><figcaption class="txt-hot">Buy for 515 ₽</figcaption></a>
 
                         </div>
-                    </article>
+                    </div>
                 </section>
         </section>
         <section class="section2" style="margin-top: 5%;">
@@ -143,19 +143,22 @@
                     <a class="izdal" href=""><img src="images/publishers/4company.png"></a>
                     <a class="izdal" href=""><img src="images/publishers/5company.png"></a>
                 </div>
-                <button class="btn1"><a href="#" class="button_click">All publishers</a></button>
+                <button class="btn1" style="margin-bottom: 1rem;"><a href="#" class="button_click">All publishers</a></button>
             </section>
         </section>
     </article>
-        <footer class="end">
-            <p class="hechtag" style="color: white;">#GAME_STORE</p>
+        
+    </main>
+    <footer class="end">
+        <p class="hechtag" style="color: white;">#GAME_STORE</p>
+        <nav>
             <div class="social">
                 <a href="https://twitter.com/Gten71" target="_blank"><img src="images/logo_and_svg/twitter.svg" alt=""></a>
                 <a href="https://www.facebook.com/jdhiiehhd.fhxuh.5/" target="_blank"><img src="images/logo_and_svg/fb.svg" alt=""></a>
                 <a href="https://www.youtube.com/channel/UCWuV2ykq3CwTgjxXh5XQkMQ" target="_blank"><img src="images/logo_and_svg/youtube.svg" alt=""></a>
             </div>
-            <p class="FoxArt">© 2023 Game Store</p>
-        </footer>
-    </main>
+        </nav>
+        <p class="FoxArt">© 2023 Game Store</p>
+    </footer>
 </body>
 </html>

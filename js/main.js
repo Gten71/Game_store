@@ -2,7 +2,7 @@ const slideContainer = document.querySelector('.container');
 const slide = document.querySelector('.slides');
 const nextBtn = document.getElementById('next-btn');
 const prevBtn = document.getElementById('prev-btn');
-const interval = 4000;
+const interval = 40000;
 
 let slides = document.querySelectorAll('.slide');
 let index = 1;

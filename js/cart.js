@@ -29,6 +29,7 @@ window.addEventListener('DOMContentLoaded',function(){
 
 
     let field = this.document.querySelector('.cart-field'),
+    fielcat = this.document.querySelector('dives')
     cart = this.document.querySelector('.cart'),
     clear = this.document.querySelector('.clear'),
     close = this.document.querySelector('.close');
@@ -49,9 +50,9 @@ window.addEventListener('DOMContentLoaded',function(){
         buttons[i].addEventListener('click',function(){
             let item = products[i].cloneNode(true);
             btn = item.querySelector('button');
-            btn.remove();
+            // btn.remove();
             field.appendChild(item);
-
+            products[i].remove()
         });
     }
 
